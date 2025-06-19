@@ -238,6 +238,7 @@ html {
     height: 600px;
     margin: auto;
     margin-top: 50px;
+
     /* border: 2px solid red; */
     h1 {
         color: aliceblue;
@@ -273,19 +274,21 @@ html {
         }
     }
 }
-.email-input-down{
+
+.email-input-down {
     width: 80%;
     margin: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
-   
-    p{
+
+    p {
         color: white;
         text-align: center;
     }
+
     input {
         height: 60px;
         width: 500px;
@@ -309,18 +312,21 @@ html {
         width: 200px;
 
     }
-    .button-bottom{
+
+    .button-bottom {
         display: flex;
         gap: 20px;
         flex-wrap: wrap;
     }
 }
+
 @media (max-width:1300px) {
     .cards {
         grid-template-columns: 1fr 1fr;
     }
-    .container{
-        height: 200% ;
+
+    .container {
+        height: 210%;
     }
 }
 
@@ -328,10 +334,50 @@ html {
     .cards {
         grid-template-columns: 1fr;
     }
-    .container{
-        height: 300%;
+
+    .container {
+        height: 410%;
     }
-    .questions{
-        height: 700px;
+
+    .questions {
+        height: 820px;
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
+
+    body {
+        width: 100vw;
+    }
+
+    .nav-content {
+        width: 100%;
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
+
+    .cards-container h1 {
+        font-size: 2rem;
+    }
+
+    .email-input-down {
+
+        input {
+            width: 300px;
+
+        }
+
+    }
+
+    .email-input {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        input {
+            width: 300px;
+        }
     }
 }
